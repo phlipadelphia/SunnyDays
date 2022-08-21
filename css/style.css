@@ -1,0 +1,95 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: 'Sunshiney', cursive;
+
+    --fw-reg: 300;
+    --fw-bold: 700;
+
+    --clr-light: skyblue;
+    --clr-dark: maroon;
+    --clr--accent: orange;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25;
+    --fs-body: 1rem;
+
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
+body {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height: 1.6;
+    background-image: url(../img/sunnydaze.jpeg);
+    background-size: cover;
+    margin: 0;
+    justify-content: center;
+    color: var(--clr-dark);
+    overflow: hidden;
+}
+
+
+section {
+    padding: 5em 2em;;
+}
+
+.city-display {
+    position: relative;
+    justify-content: center;
+}
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: var(--clr--accent); 
+}
+
+.maincol {
+    text-align: center;
+    align-items: center;
+}
+
+.leftcol {
+    text-align: center;
+}
+
+.clearfix {
+    text-align: center;
+}
+
+.searches {
+    text-align: center;
+}
+
+#nav {
+    display: inline-block;
+    text-align: center;
+}
+
+#currentcard {
+    background-color: var(--clr-light);
+    justify-content: center;
+    opacity: 0.50;
+}
+
+#title {
+    color: whitesmoke;
+    text-decoration: double;
+    font-weight: var(--fw-bold);
+}
